@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport"  content="width=device-width, initial-scale=1.0">
+<style>
+.topnav{
+		list-style-type: none;
+		margin:0;
+		padding:0;
+		overflow: hidden;
+
+	}
+.topnav	li{
+         float: right;
+
+
+	}
+.topnav li a{
+	   
+		display: block;
+		text-align:center;
+		text-decoration:none;
+		padding: 14px 16px;
+		border-color:#000;
+		color:black;
+		float: right;
+	}
+
+.btn
+{
+	background-color: pink;
+	border:none;
+	float: right;
+	text-align: center;
+	text-decoration: none;
+	padding: 8px;
+	border-radius:50%;
+	display :inline-block;
+	
+	
+}
+.btn2
+{
+
+
+	background-color: pink;
+	border:none;
+	float: left-bottom;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+	border-radius:50%;
+	display :inline-block;
+	
+	
+
+}
+.btn3
+{
+	background-color: pink;
+	border:none;
+	float: center;
+	text-align: center;
+	text-decoration: none;
+	padding: 16px;
+	border-radius:10%;
+	display :inline-block;
+	width: 20%;
+	
+	
+}
+
+.split{
+	height: 100%;
+	width: 20%;
+	position:fixed;
+	z-index: 1;
+	top=0;
+	overflow-x: hidden;
+	padding-top: 8px;
+	text-decoration: none;
+	color:white;
+
+}
+.flex-container{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	
+
+
+}
+.flex-container > div{
+	padding: 20px;
+	background-color: white;
+	color:black;
+}
+.p
+{
+	float:left-bottom;
+}
+.tab2
+{
+	float:right;
+	background-color: white;
+
+}
+.table1
+{
+	text-decoration: none;
+	margin: 0;
+	padding: 10px;
+	color:white;
+}
+
+.row {
+  margin-left:-70px;
+  margin-right:-70px;
+}
+  
+.column {
+  float: left;
+  width:60%;
+  padding:30px;
+  text-align: center;
+  color:black;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+	
+
+</head>
+<body bgcolor="blue">
+	
+	<p>startup3<p>
+
+<ul class="topnav">
+	
+	<li><a href="#">Overview</a></li>
+	<li><a href="#">Prices</a></li>
+	<li><a href="#">Blog</a></li>
+	<li><a href="#">Feedback</a></li>
+	<li class="btn"><a href="#">Purchase</li>
+	
+</ul>
+<!---<table width="100%">
+<tr>
+	<td valign="top">
+
+</tr>
+
+	</table>-->
+<table class="table1 row column" height="500px" width="450px">
+
+	<div class="flex-container "><tr>
+		<td><h1 style=" color:white;">Generate Awesome Webpages</h1><br/>
+			<align="left">
+		<pre>The most important part of the startup is the 
+			samples. The samples form a set of 25 usable pages you can 
+			use as is or you can add new blocks.</pre></td></tr>
+		 </align>
+	</div>
+	<tr><td align="center">    <a class="btn2" href="#">Learn More</a></td></tr>
+</table>
+	<table class="row column" height="100px" width="400px" bgcolor="white" align="left-top">
+<p class="tab2" align="right">
+	<tr><td><h2>Sign Up Now</h2></td></tr>
+	<tr><td><input type="text" name="your email" placeholder="your email"></td></tr>
+	<tr><td><input type="text" name="your pwd" placeholder="your password"></td></tr>
+	<tr><td><input type="checkbox" name="chk"><label for="chk"> I agree to the terms of service.</label><br></td></tr>
+	<tr><td><a class="btn3" href="#" style="background-color: blue;">Sign In</a></td></tr>
+<tr><td>--------------------or---------------------</td></tr>
+		<tr><td><a class="btn3" style="background-color: blue;" href="#">Login via Twitter</a></td></tr>
+		<tr><td><a href class="txt">Do you have an account? </a><a href class="sign">Sign In</a></td>
+				<td></td>
+		</tr>
+		
+
+</p>
+</table>
+<br/>
+<br/>
+<br/>
+<br/>
+</body>
+</html>
